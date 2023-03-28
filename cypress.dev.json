@@ -1,0 +1,16 @@
+{
+  "env": {
+    "invalidUsername": "thisisaninvalidusername",
+    "invalidPassword": "thisisaninvalidpasssword",
+    "subject": "This is a test",
+    "message": "This is a test message, kindly ignore",
+    "replymessage": "This is a test reply to your message",
+    "searchText1": "LeoVegas",
+    "searchText2": "adfhgkjfhbasdkfd",
+    "browsers": {
+      "chrome": ["--no-sandbox", "--disable-setuid-sandbox"],
+      "firefox": ["--no-sandbox", "--disable-setuid-sandbox"]
+    }
+  },
+  "testFiles": "features/**/*.feature"
+}
