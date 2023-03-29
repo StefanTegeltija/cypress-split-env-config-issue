@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "CYPRESS_BASE_URL=https://www.google.com cypress run --browser chrome --e2e --headless --env name=cypress.dev",
+    "run:dev": "CYPRESS_BASE_URL=https://www.google.com cypress run --browser chrome --e2e --headless --env name=cypress.dev",
     "badges": "npx -p dependency-version-badge update-badge cypress cypress-split",
     "debug": "DEBUG=cypress-split SPLIT=6 SPLIT_INDEX=5 npx cypress run"
   },
